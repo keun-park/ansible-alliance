@@ -3,15 +3,21 @@
 # a Windows virtual machine in Azure Cloud
 # Based on RFP 16-42051B
 #
+#==================================================
+#        MODIFIED FOR CRC RESEARCH CLOUD
+#                By: Shawn Bender
+#==================================================
 # A Windows VM in Azure Cloud with this
 # configuration may contain Government of
 # Canada 'Unclassed-Low-Low' information
 ---
-- hosts: windows:!EFM-365-Alpha:!EFM-Integration:!TempEfmJumpBox:!TempJumpBox
+- hosts: '{{ target }}'
   become_method: runas
   vars:
     MachineDefaults: {}
     MachineDefaultsPath: C:\AnsibleMachineDefaults.yml
+    ansible_host: '{{ private_ip }}'
+    ansible_winrm_server_cert_validation: ignore
   tasks:
 
   - name: Initialize template facts
