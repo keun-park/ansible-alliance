@@ -98,3 +98,7 @@
   - name: Execute ULL_SI_3 tasks
     include_tasks: WinUnclassed/ULL_SI_3.yml
     when: "'ULL_SI_3' not in SkipList"
+
+
+  - name: Get Updates for Windows
+    include_tasks: winUpdate.yml
