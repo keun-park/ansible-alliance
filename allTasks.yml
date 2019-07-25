@@ -83,7 +83,7 @@
     - { Desc: "Prevent storage of RunAs credentials",
     - { Desc: Prohibit IP source routing,
     - { Desc: Prevent bypassing SmartScreen prompts,
-    - { Desc: Limit idle RDP sessions to 15 mins,
+    - { Desc: Limit idle RDP sessions to 15 mins, #This could be an issue for some users?
     - { Desc: Set computer to restart for updates even if user(s) logged in,
     - { Desc: Limit unacknowledged data retransmission (IPv6),
     - { Desc: Limit unacknowledged data retransmission (IPv4),
