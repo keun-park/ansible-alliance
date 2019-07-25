@@ -2,7 +2,7 @@
 #Some tasks already removed before generating such as enforcing password requirements (only apply to local accounts anyways)
 #PLEASE NOTE: Comments after description
 
-    - { Desc: Password-protect screen saver, #Does not apply [ULL_AC_11.yml]
+    - { Desc: Password-protect screen saver, #Does not apply [ULL_AC_11.yml] These vvv are all AC_11 does maybe remove the include
     - { Desc: Screen saver activates after 5 mins of inactivity, #Does not apply [ULL_AC_11.yml]
     - { Desc: Require password when waking computer (AC), #Does not apply [ULL_AC_11.yml]
     - { Desc: Require password when waking computer (DC), #Does not apply [ULL_AC_11.yml]
@@ -11,11 +11,11 @@
     - { Desc: Enforce encrypted or signed channel data,
     - { Desc: Enforce encrypted of signed channel data,
     - { Desc: Do not display last user name,
-    - { Desc: Require CTRL + ALT + DEL to logon, #Does not apply [ULL_AC_3.yml]
+    - { Desc: Require CTRL + ALT + DEL to logon, #Does not apply [ULL_AC_3.yml] REMOVED
     - { Desc: Enforce digital signing of communications (Workstation),
     - { Desc: Enforce digital signing of communications (Server),
     - { Desc: Allow SafeDLL search mode,
-    - { Desc: Set screen saver grace period to 5 or less, #Does not apply [ULL_AC_3.yml]
+    - { Desc: Set screen saver grace period to 5 or less, #Does not apply [ULL_AC_3.yml] REMOVED
     - { Desc: Prevent SAM account searching, 
     - { Desc: Restrict anonymous user permissions,
     - { Desc: Restrict anonymous access to pipes,
