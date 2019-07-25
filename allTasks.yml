@@ -2,7 +2,9 @@
 #Some tasks already removed before generating such as enforcing password requirements (only apply to local accounts anyways)
 #PLEASE NOTE: Comments after description
 
-    - { Desc: Password-protect screen saver, #Does not apply [ULL_AC_11.yml] These vvv are all AC_11 does maybe remove the include
+#the include of [ULL_AC_11.yml] has been commented out from the main YML due to all of its function being irrelevant for cloud use 
+
+    - { Desc: Password-protect screen saver, #Does not apply [ULL_AC_11.yml]
     - { Desc: Screen saver activates after 5 mins of inactivity, #Does not apply [ULL_AC_11.yml]
     - { Desc: Require password when waking computer (AC), #Does not apply [ULL_AC_11.yml]
     - { Desc: Require password when waking computer (DC), #Does not apply [ULL_AC_11.yml]
