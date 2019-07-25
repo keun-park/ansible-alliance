@@ -1,5 +1,6 @@
 #Created by running [cat SCTM-DFO-IaaS\WinUnclassed\* | grep Desc]
 #Some tasks already removed before generating such as enforcing password requirements (only apply to local accounts anyways)
+#PLEASE NOTE: Comments after description
 
     - { Desc: Password-protect screen saver, #Does not apply
     - { Desc: Screen saver activates after 5 mins of inactivity, #Does not apply
