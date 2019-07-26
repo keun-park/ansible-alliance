@@ -120,3 +120,5 @@
     - { Desc: Notify antivirus programs when opening attachments is set to Enabled,
     - { Desc: Turn off Data Execution Prevention for Explorer is set to Disabled,
     - { Desc: Turn off heap termination on corruption is set to Disabled,
+    
+    - Windows Update has been added to run at the end of the playbook
