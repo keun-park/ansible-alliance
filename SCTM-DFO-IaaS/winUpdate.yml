@@ -1,9 +1,8 @@
-
-  #Run Windows Update
-  - name: Running Windows Update
-     win_updates:
-      category_names: ['SecurityUpdates','CriticalUpdates','UpdateRollups', 'Updates', 'DefinitionUpdates']
-      register: result
-  #Reboot if required      
-    - win_reboot:
-      when: result.reboot_required
+#Run Windows Update
+- name: Running Windows Update
+  win_updates:
+    category_names: ['SecurityUpdates','CriticalUpdates','UpdateRollups', 'Updates', 'DefinitionUpdates']
+    register: result
+#Reboot if required      
+- win_reboot:
+  when: result.reboot_required
