@@ -1,4 +1,4 @@
-- name: Login to Azure
+- name: Login
   plugin: azure_rm
   ad_user: "shawn.bender@vrd-drv.crc.ca"
   password: "}9YNjTN}"
