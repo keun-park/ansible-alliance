@@ -11,12 +11,12 @@
 # configuration may contain Government of
 # Canada 'Unclassed-Low-Low' information
 ---
-- hosts: '{{ target }}'
+- hosts: "{{ target }}"
   become_method: runas
   vars:
     MachineDefaults: {}
     MachineDefaultsPath: C:\AnsibleMachineDefaults.yml
-    ansible_host: '{{ private_ip }}'
+    ansible_host: "{{ private_ip }}"
     ansible_winrm_server_cert_validation: ignore
   tasks:
 
