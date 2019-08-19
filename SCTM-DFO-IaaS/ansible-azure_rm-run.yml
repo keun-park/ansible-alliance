@@ -1,9 +1,3 @@
-- name: Login
-  plugin: azure_rm
-  ad_user: "shawn.bender@vrd-drv.crc.ca"
-  password: "}9YNjTN}"
-
-
 - name: Check VM power state
   azure_rm_virtualmachine_facts:
     resource_group: '{{ resource_group }}'
