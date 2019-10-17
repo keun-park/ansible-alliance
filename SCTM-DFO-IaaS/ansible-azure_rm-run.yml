@@ -3,6 +3,6 @@
     #resource_group: "{{ resource_group }}"
     resource_group: crc-msdn-itim-coop-devtest
     name: ansibletestwin1
-    #register: output
-#- debug:
-    #var: output
+    register: output
+- debug:
+    var: output
