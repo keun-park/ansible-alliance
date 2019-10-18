@@ -1,3 +1,6 @@
+#THIS IS THE FILE FOR CHECKING VM POWERSTATE
+#AND PLANNED TO BE FOR GETTING INFO ON VMs IN AZURE
+
 - name: Check VM power state
   azure_rm_virtualmachine_facts:
     #resource_group: "{{ resource_group }}"
