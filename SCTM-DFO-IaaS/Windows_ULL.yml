@@ -20,8 +20,11 @@
     ansible_winrm_server_cert_validation: ignore
   tasks:
 
+#THIS IS THE INCLUDE FOR PLAYING WITH AZURE_RM MODULE
+#                  NOT WORKING YET
 #  - name: Azure RM 
-#    include_tasks: ansible-azure_rm.yml
+#    include_tasks: ansible-azure_rm-run.yml
+######################################################
 
   - name: Initialize template facts
     set_fact:
