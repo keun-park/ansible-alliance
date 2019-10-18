@@ -20,8 +20,8 @@
     ansible_winrm_server_cert_validation: ignore
   tasks:
 
-  - name: Azure RM 
-    include_tasks: ansible-azure_rm.yml
+#  - name: Azure RM 
+#    include_tasks: ansible-azure_rm.yml
 
   - name: Initialize template facts
     set_fact:
