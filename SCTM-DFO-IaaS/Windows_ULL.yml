@@ -79,9 +79,9 @@
     include_tasks: WinUnclassed/ULL_IA_2.yml
     when: "'ULL_IA_2' not in SkipList"
 
-  - name: Execute ULL_IA_5 tasks
-    include_tasks: WinUnclassed/ULL_IA_5.yml
-    when: "'ULL_IA_5' not in SkipList"
+#  - name: Execute ULL_IA_5 tasks
+#    include_tasks: WinUnclassed/ULL_IA_5.yml
+#    when: "'ULL_IA_5' not in SkipList"
 
   # SC
   - name: Execute ULL_SC_2_7_10 tasks
